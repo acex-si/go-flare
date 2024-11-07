@@ -3,7 +3,7 @@ name: container-images
 
 on:
   push:
-    branches: [ "acex-production" ]
+    branches: [ "acex-production", "acex-test" ]
     tags: [ "v*" ]
   workflow_dispatch:
 
